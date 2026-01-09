@@ -1,0 +1,71 @@
+{
+  "metaData": {
+    "Raw data ID": "IMG_D_A6_496653.jpg",
+    "copyrighter": "㈜미소정보기술",
+    "resolution": "1920X1080",
+    "date": "2021-11-18",
+    "breed": "비숑프리제",
+    "age": "8",
+    "gender": "F",
+    "region": "L",
+    "camera type": "IMG",
+    "species": "D",
+    "lesions": "A6",
+    "diagnosis": "",
+    "Path": "유증상",
+    "identifier": "피부질환",
+    "src_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A6_결절_종괴",
+    "label_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A6_결절_종괴",
+    "type": "json",
+    "fileformat": "jpg"
+  },
+  "inspRejectYn": "N",
+  "labelingInfo": [
+    {
+      "polygon": {
+        "color": "#0033cc",
+        "location": [
+          {
+            "x1": 635,
+            "y1": 604,
+            "x2": 679,
+            "y2": 610,
+            "x3": 752,
+            "y3": 598,
+            "x4": 787,
+            "y4": 550,
+            "x5": 788,
+            "y5": 466,
+            "x6": 733,
+            "y6": 406,
+            "x7": 629,
+            "y7": 398,
+            "x8": 605,
+            "y8": 455,
+            "x9": 599,
+            "y9": 539,
+            "x10": 635,
+            "y10": 604
+          }
+        ],
+        "label": "A6_결절_종괴",
+        "type": "polygon"
+      }
+    },
+    {
+      "box": {
+        "color": "#0033cc",
+        "location": [
+          {
+            "x": 599,
+            "y": 398,
+            "width": 189,
+            "height": 212
+          }
+        ],
+        "label": "A6_결절_종괴",
+        "type": "box"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "metaData": {
+    "Raw data ID": "IMG_D_A6_496694.jpg",
+    "copyrighter": "㈜미소정보기술",
+    "resolution": "1920X1080",
+    "date": "2021-11-15",
+    "breed": "말티즈",
+    "age": "7",
+    "gender": "F",
+    "region": "B",
+    "camera type": "IMG",
+    "species": "D",
+    "lesions": "A6",
+    "diagnosis": "",
+    "Path": "유증상",
+    "identifier": "피부질환",
+    "src_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A6_결절_종괴",
+    "label_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A6_결절_종괴",
+    "type": "json",
+    "fileformat": "jpg"
+  },
+  "inspRejectYn": "N",
+  "labelingInfo": [
+    {
+      "polygon": {
+        "color": "#0033cc",
+        "location": [
+          {
+            "x1": 272,
+            "y1": 373,
+            "x2": 188,
+            "y2": 386,
+            "x3": 144,
+            "y3": 299,
+            "x4": 172,
+            "y4": 251,
+            "x5": 237,
+            "y5": 233,
+            "x6": 294,
+            "y6": 271,
+            "x7": 310,
+            "y7": 295,
+            "x8": 272,
+            "y8": 373
+          }
+        ],
+        "label": "A6_결절_종괴",
+        "type": "polygon"
+      }
+    },
+    {
+      "box": {
+        "color": "#0033cc",
+        "location": [
+          {
+            "x": 144,
+            "y": 233,
+            "width": 166,
+            "height": 153
+          }
+        ],
+        "label": "A6_결절_종괴",
+        "type": "box"
+      }
+    }
+  ]
+}

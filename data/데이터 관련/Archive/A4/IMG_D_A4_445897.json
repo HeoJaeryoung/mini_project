@@ -1,0 +1,73 @@
+{
+  "metaData": {
+    "Raw data ID": "IMG_D_A4_445897.jpg",
+    "copyrighter": "㈜미소정보기술",
+    "resolution": "1920X1080",
+    "date": "2021-11-19",
+    "breed": "포메라니안",
+    "age": "2",
+    "gender": "F",
+    "region": "A",
+    "camera type": "IMG",
+    "species": "D",
+    "lesions": "A4",
+    "diagnosis": "",
+    "Path": "유증상",
+    "identifier": "피부질환",
+    "src_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A4_농포_여드름",
+    "label_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A4_농포_여드름",
+    "type": "json",
+    "fileformat": "jpg"
+  },
+  "inspRejectYn": "N",
+  "labelingInfo": [
+    {
+      "polygon": {
+        "color": "#27b73c",
+        "location": [
+          {
+            "x1": 1318,
+            "y1": 224,
+            "x2": 1271,
+            "y2": 232,
+            "x3": 1243,
+            "y3": 256,
+            "x4": 1237,
+            "y4": 296,
+            "x5": 1286,
+            "y5": 335,
+            "x6": 1337,
+            "y6": 335,
+            "x7": 1366,
+            "y7": 302,
+            "x8": 1372,
+            "y8": 271,
+            "x9": 1369,
+            "y9": 251,
+            "x10": 1366,
+            "y10": 250,
+            "x11": 1318,
+            "y11": 224
+          }
+        ],
+        "label": "A4_농포_여드름",
+        "type": "polygon"
+      }
+    },
+    {
+      "box": {
+        "color": "#27b73c",
+        "location": [
+          {
+            "x": 1237,
+            "y": 224,
+            "width": 135,
+            "height": 111
+          }
+        ],
+        "label": "A4_농포_여드름",
+        "type": "box"
+      }
+    }
+  ]
+}

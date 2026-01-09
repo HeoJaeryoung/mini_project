@@ -1,0 +1,75 @@
+{
+  "metaData": {
+    "Raw data ID": "IMG_D_A4_445823.jpg",
+    "copyrighter": "㈜미소정보기술",
+    "resolution": "1920X1080",
+    "date": "2021-11-03",
+    "breed": "몽그렐",
+    "age": "4",
+    "gender": "F",
+    "region": "B",
+    "camera type": "IMG",
+    "species": "D",
+    "lesions": "A4",
+    "diagnosis": "",
+    "Path": "유증상",
+    "identifier": "피부질환",
+    "src_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A4_농포_여드름",
+    "label_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A4_농포_여드름",
+    "type": "json",
+    "fileformat": "jpg"
+  },
+  "inspRejectYn": "N",
+  "labelingInfo": [
+    {
+      "polygon": {
+        "color": "#27b73c",
+        "location": [
+          {
+            "x1": 910,
+            "y1": 688,
+            "x2": 881,
+            "y2": 703,
+            "x3": 868,
+            "y3": 716,
+            "x4": 872,
+            "y4": 743,
+            "x5": 896,
+            "y5": 755,
+            "x6": 922,
+            "y6": 757,
+            "x7": 937,
+            "y7": 739,
+            "x8": 937,
+            "y8": 695,
+            "x9": 935,
+            "y9": 696,
+            "x10": 935,
+            "y10": 696,
+            "x11": 934,
+            "y11": 694,
+            "x12": 910,
+            "y12": 688
+          }
+        ],
+        "label": "A4_농포_여드름",
+        "type": "polygon"
+      }
+    },
+    {
+      "box": {
+        "color": "#27b73c",
+        "location": [
+          {
+            "x": 868,
+            "y": 688,
+            "width": 69,
+            "height": 69
+          }
+        ],
+        "label": "A4_농포_여드름",
+        "type": "box"
+      }
+    }
+  ]
+}

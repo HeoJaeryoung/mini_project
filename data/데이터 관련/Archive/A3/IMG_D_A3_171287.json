@@ -1,0 +1,75 @@
+{
+  "metaData": {
+    "Raw data ID": "IMG_D_A3_171287.jpg",
+    "copyrighter": "㈜미소정보기술",
+    "resolution": "1920X1080",
+    "date": "2021-11-02",
+    "breed": "말티즈",
+    "age": "11",
+    "gender": "M",
+    "region": "B",
+    "camera type": "IMG",
+    "species": "D",
+    "lesions": "A3",
+    "diagnosis": "",
+    "Path": "유증상",
+    "identifier": "피부질환",
+    "src_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A3_태선화_과다색소침착",
+    "label_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A3_태선화_과다색소침착",
+    "type": "json",
+    "fileformat": "jpg"
+  },
+  "inspRejectYn": "N",
+  "labelingInfo": [
+    {
+      "polygon": {
+        "color": "#56bcec",
+        "location": [
+          {
+            "x1": 1586,
+            "y1": 681,
+            "x2": 1522,
+            "y2": 706,
+            "x3": 1481,
+            "y3": 737,
+            "x4": 1500,
+            "y4": 782,
+            "x5": 1528,
+            "y5": 798,
+            "x6": 1551,
+            "y6": 803,
+            "x7": 1566,
+            "y7": 808,
+            "x8": 1625,
+            "y8": 807,
+            "x9": 1671,
+            "y9": 803,
+            "x10": 1688,
+            "y10": 755,
+            "x11": 1651,
+            "y11": 723,
+            "x12": 1586,
+            "y12": 681
+          }
+        ],
+        "label": "A3_태선화_과다색소침착",
+        "type": "polygon"
+      }
+    },
+    {
+      "box": {
+        "color": "#56bcec",
+        "location": [
+          {
+            "x": 1481,
+            "y": 681,
+            "width": 207,
+            "height": 127
+          }
+        ],
+        "label": "A3_태선화_과다색소침착",
+        "type": "box"
+      }
+    }
+  ]
+}

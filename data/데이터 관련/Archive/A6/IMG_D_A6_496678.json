@@ -1,0 +1,71 @@
+{
+  "metaData": {
+    "Raw data ID": "IMG_D_A6_496678.jpg",
+    "copyrighter": "㈜미소정보기술",
+    "resolution": "1920X1080",
+    "date": "2021-10-16",
+    "breed": "몽그렐",
+    "age": "10",
+    "gender": "M",
+    "region": "L",
+    "camera type": "IMG",
+    "species": "D",
+    "lesions": "A6",
+    "diagnosis": "",
+    "Path": "유증상",
+    "identifier": "피부질환",
+    "src_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A6_결절_종괴",
+    "label_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A6_결절_종괴",
+    "type": "json",
+    "fileformat": "jpg"
+  },
+  "inspRejectYn": "N",
+  "labelingInfo": [
+    {
+      "polygon": {
+        "color": "#0033cc",
+        "location": [
+          {
+            "x1": 739,
+            "y1": 482,
+            "x2": 728,
+            "y2": 526,
+            "x3": 747,
+            "y3": 575,
+            "x4": 820,
+            "y4": 591,
+            "x5": 873,
+            "y5": 579,
+            "x6": 924,
+            "y6": 543,
+            "x7": 947,
+            "y7": 495,
+            "x8": 941,
+            "y8": 444,
+            "x9": 875,
+            "y9": 424,
+            "x10": 739,
+            "y10": 482
+          }
+        ],
+        "label": "A6_결절_종괴",
+        "type": "polygon"
+      }
+    },
+    {
+      "box": {
+        "color": "#0033cc",
+        "location": [
+          {
+            "x": 728,
+            "y": 424,
+            "width": 219,
+            "height": 167
+          }
+        ],
+        "label": "A6_결절_종괴",
+        "type": "box"
+      }
+    }
+  ]
+}

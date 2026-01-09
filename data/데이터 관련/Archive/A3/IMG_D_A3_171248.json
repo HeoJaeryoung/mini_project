@@ -1,0 +1,65 @@
+{
+  "metaData": {
+    "Raw data ID": "IMG_D_A3_171248.jpg",
+    "copyrighter": "㈜미소정보기술",
+    "resolution": "1920X1080",
+    "date": "2021-11-01",
+    "breed": "푸들",
+    "age": "7",
+    "gender": "M",
+    "region": "L",
+    "camera type": "IMG",
+    "species": "D",
+    "lesions": "A3",
+    "diagnosis": "",
+    "Path": "유증상",
+    "identifier": "피부질환",
+    "src_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A3_태선화_과다색소침착",
+    "label_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A3_태선화_과다색소침착",
+    "type": "json",
+    "fileformat": "jpg"
+  },
+  "inspRejectYn": "N",
+  "labelingInfo": [
+    {
+      "polygon": {
+        "color": "#56bcec",
+        "location": [
+          {
+            "x1": 712,
+            "y1": 438,
+            "x2": 702,
+            "y2": 489,
+            "x3": 746,
+            "y3": 527,
+            "x4": 777,
+            "y4": 500,
+            "x5": 779,
+            "y5": 461,
+            "x6": 732,
+            "y6": 389,
+            "x7": 712,
+            "y7": 438
+          }
+        ],
+        "label": "A3_태선화_과다색소침착",
+        "type": "polygon"
+      }
+    },
+    {
+      "box": {
+        "color": "#56bcec",
+        "location": [
+          {
+            "x": 702,
+            "y": 389,
+            "width": 77,
+            "height": 138
+          }
+        ],
+        "label": "A3_태선화_과다색소침착",
+        "type": "box"
+      }
+    }
+  ]
+}

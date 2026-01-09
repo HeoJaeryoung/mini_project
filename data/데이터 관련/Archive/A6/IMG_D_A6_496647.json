@@ -1,0 +1,71 @@
+{
+  "metaData": {
+    "Raw data ID": "IMG_D_A6_496647.jpg",
+    "copyrighter": "㈜미소정보기술",
+    "resolution": "1920X1080",
+    "date": "2021-10-14",
+    "breed": "치와와",
+    "age": "9",
+    "gender": "F",
+    "region": "B",
+    "camera type": "IMG",
+    "species": "D",
+    "lesions": "A6",
+    "diagnosis": "",
+    "Path": "유증상",
+    "identifier": "피부질환",
+    "src_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A6_결절_종괴",
+    "label_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A6_결절_종괴",
+    "type": "json",
+    "fileformat": "jpg"
+  },
+  "inspRejectYn": "N",
+  "labelingInfo": [
+    {
+      "polygon": {
+        "color": "#0033cc",
+        "location": [
+          {
+            "x1": 467,
+            "y1": 550,
+            "x2": 541,
+            "y2": 556,
+            "x3": 577,
+            "y3": 551,
+            "x4": 617,
+            "y4": 521,
+            "x5": 625,
+            "y5": 487,
+            "x6": 605,
+            "y6": 442,
+            "x7": 548,
+            "y7": 437,
+            "x8": 521,
+            "y8": 461,
+            "x9": 502,
+            "y9": 496,
+            "x10": 467,
+            "y10": 550
+          }
+        ],
+        "label": "A6_결절_종괴",
+        "type": "polygon"
+      }
+    },
+    {
+      "box": {
+        "color": "#0033cc",
+        "location": [
+          {
+            "x": 467,
+            "y": 437,
+            "width": 158,
+            "height": 119
+          }
+        ],
+        "label": "A6_결절_종괴",
+        "type": "box"
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+-- DROP TABLE univDB.users
+-- DROP TABLE univDB.results
+-- DROP TABLE univDB.questions
+
+CREATE TABLE  IF NOT EXISTS users (
+    userNo INT AUTO_INCREMENT PRIMARY KEY,
+    userUid VARCHAR(100) NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    name VARCHAR(50) NOT NULL,
+    phoneNumber VARCHAR(20) NULL,
+    createAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE  IF NOT EXISTS results (
+    resultNo INT AUTO_INCREMENT PRIMARY KEY,
+    userNo INT NOT NULL,
+    diseaseName VARCHAR(100) NOT NULL,
+    probability FLOAT NOT NULL,
+    createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (userNo) REFERENCES univDB.users(userNo)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS  questions (
+    questionNo INT AUTO_INCREMENT PRIMARY KEY,
+    userNo INT NOT NULL,
+    title VARCHAR(100) NOT NULL,
+    content VARCHAR(500) NOT NULL,
+    answer  VARCHAR(500),
+    queCreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    ansCreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (userNo) REFERENCES univDB.users(userNo)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE VIEW IF NOT EXISTS  v_user_results AS
+SELECT 
+    u.userNo,
+    u.userUid,
+    u.name,
+    r.resultNo,
+    r.diseaseName,
+    r.probability,
+    r.createdAt
+FROM univDB.users u
+JOIN univDB.results r ON u.userNo = r.userNo;
+
+CREATE VIEW IF NOT EXISTS  v_user_questions AS
+SELECT 
+    u.userNo,
+    u.userUid,
+    u.name,
+    q.questionNo,
+    q.title,
+    q.content,
+    q.answer,
+    q.queCreatedAt,
+    q.ansCreatedAt
+FROM univDB.users u
+JOIN univDB.questions q ON u.userNo = q.userNo;
+
+CREATE VIEW IF NOT EXISTS  v_user_activity AS
+SELECT 
+    u.userNo,
+    u.userUid,
+    u.name,
+    r.diseaseName,
+    r.probability,
+    r.createdAt,
+    q.title,
+    q.answer,
+    q.queCreatedAt,
+    q.ansCreatedAt
+FROM univDB.users u
+LEFT JOIN univDB.results r ON u.userNo = r.userNo
+LEFT JOIN univDB.questions q ON u.userNo = q.userNo;

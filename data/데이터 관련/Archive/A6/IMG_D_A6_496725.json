@@ -1,0 +1,81 @@
+{
+  "metaData": {
+    "Raw data ID": "IMG_D_A6_496725.jpg",
+    "copyrighter": "㈜미소정보기술",
+    "resolution": "1920X1080",
+    "date": "2021-10-27",
+    "breed": "푸들",
+    "age": "11",
+    "gender": "M",
+    "region": "A",
+    "camera type": "IMG",
+    "species": "D",
+    "lesions": "A6",
+    "diagnosis": "",
+    "Path": "유증상",
+    "identifier": "피부질환",
+    "src_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A6_결절_종괴",
+    "label_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A6_결절_종괴",
+    "type": "json",
+    "fileformat": "jpg"
+  },
+  "inspRejectYn": "N",
+  "labelingInfo": [
+    {
+      "polygon": {
+        "color": "#0033cc",
+        "location": [
+          {
+            "x1": 763,
+            "y1": 315,
+            "x2": 769,
+            "y2": 316,
+            "x3": 771,
+            "y3": 322,
+            "x4": 771,
+            "y4": 336,
+            "x5": 771,
+            "y5": 345,
+            "x6": 769,
+            "y6": 355,
+            "x7": 760,
+            "y7": 358,
+            "x8": 754,
+            "y8": 359,
+            "x9": 745,
+            "y9": 356,
+            "x10": 740,
+            "y10": 350,
+            "x11": 735,
+            "y11": 346,
+            "x12": 735,
+            "y12": 340,
+            "x13": 735,
+            "y13": 333,
+            "x14": 740,
+            "y14": 325,
+            "x15": 763,
+            "y15": 315
+          }
+        ],
+        "label": "A6_결절_종괴",
+        "type": "polygon"
+      }
+    },
+    {
+      "box": {
+        "color": "#0033cc",
+        "location": [
+          {
+            "x": 735,
+            "y": 315,
+            "width": 36,
+            "height": 44
+          }
+        ],
+        "label": "A6_결절_종괴",
+        "type": "box"
+      }
+    }
+  ]
+}

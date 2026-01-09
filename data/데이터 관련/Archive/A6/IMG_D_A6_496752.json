@@ -1,0 +1,77 @@
+{
+  "metaData": {
+    "Raw data ID": "IMG_D_A6_496752.jpg",
+    "copyrighter": "㈜미소정보기술",
+    "resolution": "1920X1080",
+    "date": "2021-11-19",
+    "breed": "포메라니안",
+    "age": "11",
+    "gender": "F",
+    "region": "L",
+    "camera type": "IMG",
+    "species": "D",
+    "lesions": "A6",
+    "diagnosis": "",
+    "Path": "유증상",
+    "identifier": "피부질환",
+    "src_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A6_결절_종괴",
+    "label_path": "/라벨링데이터/반려견/피부/일반카메라/유증상/A6_결절_종괴",
+    "type": "json",
+    "fileformat": "jpg"
+  },
+  "inspRejectYn": "N",
+  "labelingInfo": [
+    {
+      "polygon": {
+        "color": "#0033cc",
+        "location": [
+          {
+            "x1": 386,
+            "y1": 519,
+            "x2": 399,
+            "y2": 549,
+            "x3": 417,
+            "y3": 571,
+            "x4": 457,
+            "y4": 567,
+            "x5": 486,
+            "y5": 545,
+            "x6": 507,
+            "y6": 516,
+            "x7": 515,
+            "y7": 479,
+            "x8": 511,
+            "y8": 444,
+            "x9": 497,
+            "y9": 427,
+            "x10": 467,
+            "y10": 415,
+            "x11": 426,
+            "y11": 413,
+            "x12": 391,
+            "y12": 431,
+            "x13": 386,
+            "y13": 519
+          }
+        ],
+        "label": "A6_결절_종괴",
+        "type": "polygon"
+      }
+    },
+    {
+      "box": {
+        "color": "#0033cc",
+        "location": [
+          {
+            "x": 386,
+            "y": 413,
+            "width": 129,
+            "height": 158
+          }
+        ],
+        "label": "A6_결절_종괴",
+        "type": "box"
+      }
+    }
+  ]
+}
