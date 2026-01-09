@@ -3,9 +3,6 @@ __pycache__/
 *.py[codz]
 *$py.class
 
-# Project data (root-level)
-1. 데이터, 자료/
-
 # C extensions
 *.so
 
