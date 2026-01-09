@@ -1,0 +1,10 @@
+node_modules/
+
+DB/RDBMS
+
+# Google Drive 문서 포인터
+*.gdoc
+*.gsheet
+*.gslides
+
+1. 데이터, 자료/
